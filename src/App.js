@@ -8,7 +8,7 @@ import ContactoPage from './pages/ContactoPage';
 import HomePage from './pages/HomePage';
 import NosotrosPage from './pages/NosotrosPage';
 import ServiciosPage from './pages/ServiciosPage';
-//import './App.css';
+import './App.css';
 
 function App() {
   return (

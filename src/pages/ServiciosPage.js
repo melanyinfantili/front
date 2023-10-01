@@ -1,3 +1,4 @@
+import '../styles/servicios.css'
 import React from "react";
 const ServiciosPage = (props) => {
     return (

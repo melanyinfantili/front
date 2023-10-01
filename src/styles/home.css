@@ -1,0 +1,41 @@
+.mundofitness {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    line-height: 25px;
+
+
+}
+
+.reseñas {
+    width: 25%;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bienvenidos p {
+    font-size: 25px;
+}
+
+.reseña {
+    background-color: blanchedalmond;
+    padding: 16px;
+}
+
+.reseña .cita {
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 22px;
+    display: block;
+}
+
+.reseña .autor {
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}

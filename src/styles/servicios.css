@@ -1,0 +1,69 @@
+.service {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+
+
+
+}
+
+.clasespersonalizadas {
+    border: 1px solid pink;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.clasespersonalizadas img {
+    border-radius: 40%;
+    max-width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+}
+
+.clasespersonalizadas p {
+    line-height: 15px;
+}
+
+.clasespersonalizadas h2 {
+    line-height: 25px;
+}
+
+.rutinas {
+    border: 1px solid pink;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.rutinas img {
+    border-radius: 40%;
+    max-width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+}
+
+.rutinas p {
+    line-height: 15px;
+}
+
+.alimentacion {
+    border: 1px solid pink;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.alimentacion img {
+    border-radius: 40%;
+    max-width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+}
+
+.alimentacion p {
+    line-height: 15px;
+}

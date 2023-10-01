@@ -1,0 +1,9 @@
+.imagenfitness {
+    position: relative;
+    left: 190px;
+
+}
+
+.imagenes {
+    display: flex;
+}
