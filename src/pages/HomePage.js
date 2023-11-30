@@ -7,19 +7,19 @@ const HomePage = (props) => {
 
             <MDBCarousel showIndicators showControls interval={3000} fade>
                 <MDBCarouselItem itemId={1}>
-                    <img src='img/Captura de pantalla 2023-11-29 a la(s) 21.18.48.png' interval={1000} className='d-block w-100' alt='...' />
+                    <img src='img/Captura de pantalla 2023-11-29 a la(s) 21.18.48.png' interval={1000} className='d-block w-100' alt='Imagen1' />
                     <MDBCarouselCaption>
                     </MDBCarouselCaption>
                 </MDBCarouselItem>
 
                 <MDBCarouselItem itemId={2}>
-                    <img src='img/Captura de pantalla 2023-11-29 a la(s) 21.16.41.png' className='d-block w-100' alt='...' />
+                    <img src='img/Captura de pantalla 2023-11-29 a la(s) 21.16.41.png' className='d-block w-100' alt='Imagen2' />
                     <MDBCarouselCaption>
                     </MDBCarouselCaption>
                 </MDBCarouselItem>
 
                 <MDBCarouselItem itemId={3}>
-                    <img src='img/Captura de pantalla 2023-11-29 a la(s) 21.14.52.png' className='d-block w-100' alt='...' />
+                    <img src='img/Captura de pantalla 2023-11-29 a la(s) 21.14.52.png' className='d-block w-100' alt='Imagen3' />
                     <MDBCarouselCaption>
                     </MDBCarouselCaption>
                 </MDBCarouselItem>
