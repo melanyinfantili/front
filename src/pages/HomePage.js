@@ -1,17 +1,34 @@
 import '../styles/home.css'
 import React from "react";
+import { MDBCarousel, MDBCarouselItem, MDBCarouselCaption } from 'mdb-react-ui-kit';
 const HomePage = (props) => {
     return (
         <main className="holder">
-        <div className="homeimg">
-            <img src="img/fitness-femenino-.jpg" width="1000"   alt="1"/>
-        </div>
+
+            <MDBCarousel showIndicators showControls interval={3000} fade>
+                <MDBCarouselItem itemId={1}>
+                    <img src='img/Captura de pantalla 2023-11-29 a la(s) 21.18.48.png' interval={1000} className='d-block w-100' alt='...' />
+                    <MDBCarouselCaption>
+                    </MDBCarouselCaption>
+                </MDBCarouselItem>
+
+                <MDBCarouselItem itemId={2}>
+                    <img src='img/Captura de pantalla 2023-11-29 a la(s) 21.16.41.png' className='d-block w-100' alt='...' />
+                    <MDBCarouselCaption>
+                    </MDBCarouselCaption>
+                </MDBCarouselItem>
+
+                <MDBCarouselItem itemId={3}>
+                    <img src='img/Captura de pantalla 2023-11-29 a la(s) 21.14.52.png' className='d-block w-100' alt='...' />
+                    <MDBCarouselCaption>
+                    </MDBCarouselCaption>
+                </MDBCarouselItem>
+            </MDBCarousel>
         <div className="columnas">
             <div className="mundofitness">
                 <h2>Mundo Fitness</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis ex aliquid alias voluptatem expedita nostrum facere dolorem ducimus? 
-                    Quod doloremque, assumenda eligendi sint neque quo eum eius blanditiis animi impedit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, autem quidem velit iure explicabo possimus inventore ad asperiores, cumque distinctio odit! Illum voluptatibus veritatis repellendus, distinctio aliquam sint est earum.</p>
+                <p>Bienvenido al Mundo Fitness donde entrenar es un bienestar para uno mismo y sentirse pleno </p>
+                <p>Aca hacemos que el momento de entrenamiento sea el mejor momento del dia.</p>
             </div>
 
 

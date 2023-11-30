@@ -3,8 +3,12 @@
     padding-right: 10px;
     box-sizing: border-box;
     line-height: 25px;
+    
 
 
+}
+.mundofitness p {
+    font-size: 18px;
 }
 
 .reseñas {

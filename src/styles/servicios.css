@@ -23,11 +23,12 @@
 }
 
 .clasespersonalizadas p {
-    line-height: 15px;
+    line-height: 18px;
 }
 
 .clasespersonalizadas h2 {
-    line-height: 25px;
+    line-height: 65px;
+    
 }
 
 .rutinas {
@@ -37,6 +38,7 @@
     text-align: center;
     padding: 12px;
     box-sizing: border-box;
+    
 }
 
 .rutinas img {
@@ -46,7 +48,11 @@
 }
 
 .rutinas p {
-    line-height: 15px;
+    line-height: 18px;
+}
+
+.rutinas h2 {
+    line-height: 65px;
 }
 
 .alimentacion {
@@ -65,5 +71,9 @@
 }
 
 .alimentacion p {
-    line-height: 15px;
+    line-height: 18px;
+}
+
+.alimentacion h2 {
+    line-height: 65px;
 }

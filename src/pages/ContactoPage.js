@@ -2,6 +2,10 @@ import '../styles/contacto.css'
 import React, { useState } from "react";
 import { useSate } from 'react';
 import axios from 'axios';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faInstagram} from '@fortawesome/free-brands-svg-icons';
+import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import {faPhone} from '@fortawesome/free-solid-svg-icons';
 
 const ContactoPage = (props) => {
 
@@ -71,9 +75,9 @@ const ContactoPage = (props) => {
             <h2>Mas vias de comunicacion</h2>
             <p>Contactanos por culaquiera de los siguientes medios</p>
             <ul>
-                <li>Celular: 1189034500</li>
-                <li>Email: contactos@igtraining.com.ar</li>
-                <li>Instagram</li>
+                <li><FontAwesomeIcon icon={faPhone}/>  Celular: 1189034500</li>
+                <li><FontAwesomeIcon icon={faEnvelope}/>    Email: contactos@igtraining.com.ar</li>
+                <li><FontAwesomeIcon icon={faInstagram}/>   Instagram = @IGTRAINING</li>
             </ul>
 
         </div>

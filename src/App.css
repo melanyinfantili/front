@@ -1,7 +1,9 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
+  font-family: 'Orbitron';
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-size: medium;
   line-height: 10px;
+  
 }
 
 
@@ -14,6 +16,7 @@ body {
 h2 {
   color: hotpink;
   font-weight: 300;
+  font-style: italic;
 }
 
 

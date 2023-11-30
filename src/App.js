@@ -11,6 +11,8 @@ import ServiciosPage from './pages/ServiciosPage';
 import NovedadesPage from './pages/NovedadesPage';
 import './App.css';
 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&family=Orbitron:wght@500&display=swap" rel="stylesheet"></link>;
+
 function App() {
   return (
     <div className="App">
